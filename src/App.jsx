@@ -10,6 +10,7 @@ function App() {
     <Header/>
     <Routes>
       <Route path="/" element={<p>Home placeholder</p>} />
+      <Route path="/quiz" element={<p>Quiz placeholder</p>} />
       </Routes>
   </UserProvider>
   );
