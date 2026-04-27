@@ -72,6 +72,8 @@ function App() {
     });
   }
 
+  
+
   async function fetchArtwork(keyword) {
     try {
       const searchRes = await fetch(
